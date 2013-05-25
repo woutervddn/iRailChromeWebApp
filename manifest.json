@@ -1,0 +1,17 @@
+{
+ "name": "BeTrains Chrome WebApp",
+ "description": "A simple & fast Chrome WebApp",
+ "version": "1.0",
+ "manifest_version": 2,
+ "offline_enabled" : false,
+ "app": {
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+ },
+ "permissions": [
+ ],
+  "sandbox": {
+    "pages": [ "index.html" ]
+  }
+}
